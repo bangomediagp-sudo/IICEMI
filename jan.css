@@ -285,16 +285,30 @@ footer p{
 
 
 @media (max-width: 400px) {
-    #navegacao{
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #cur{
         display: none;
     }
 
+    #formando{
+        display: none;
+    }
     .delete{
         display: none;
     }
+    
+
+    .keep{
+        display: block;
+    }
+
     #mais{
         display: block;
     }
+
     .butor{
         display: block;
     }
