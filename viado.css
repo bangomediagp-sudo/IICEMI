@@ -402,4 +402,6 @@ footer #cachoro {
         display: flex;
         flex-direction: column;
     }
+    main{
+        margin-top: 20px;
 }
