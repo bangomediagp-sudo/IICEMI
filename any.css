@@ -233,4 +233,9 @@ section{
     #fora{
         display: none;
     }
+    #navegacao{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
 }
