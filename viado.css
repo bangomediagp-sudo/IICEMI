@@ -328,9 +328,10 @@ footer #cachoro {
 
 
 @media (max-width: 1339px) {
-    #navegacao{
+    #navegacao button{
         display: none;
     }
+
 
     #headersec{
         display: flex;
@@ -353,12 +354,46 @@ footer #cachoro {
     .move img{
         min-width: 400px;
     }
+
+    .Sobre{
+        display: flex;
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    #condado{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .separa{
+        padding: 5px 12px ;
+    }
+
+    #condado img{
+        width: 400px;
+        height: 200px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
 }
 
 @media (max-width: 920px) {
+    header{
+        margin-bottom: 40px;
+    }
     .separa{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    #inicio{
+        display: none;
+    }
+
+    #timbre{
+        width: 125px;
+        height: 42.5px;
     }
 
     .text{
