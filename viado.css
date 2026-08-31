@@ -382,7 +382,7 @@ footer #cachoro {
     header{
         display: flex;
         flex-direction: column;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
     .separa{
         display: flex;
