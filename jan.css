@@ -302,7 +302,11 @@ footer p{
 
 
 @media (max-width: 740px) {
-    #navegacao{
+    #cur{
+        display: none;
+    }
+
+    #formando{
         display: none;
     }
     .delete{
