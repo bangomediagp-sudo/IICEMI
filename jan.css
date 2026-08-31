@@ -1,0 +1,324 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(fontes/Oswald-VariableFont_wght.ttf)  format(truetype);
+}
+
+@font-face {
+    font-family: 'comorant';
+    src: url(fontes/CormorantGaramond-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'korewa';
+    src: url(fontes/GreatVibes-Regular.ttf) format(truetype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    padding: 0;
+    font-family: 'oswald';
+}
+main{
+    background-color: whitesmoke;
+}
+
+#timbre img{
+    width: 250px;
+    height: 85px;
+}
+
+
+#navegacao{
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.links{
+    padding: 3px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.links:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.links:hover a{
+    color: white;
+}
+
+#corno_do_teu_namorado{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 15px;
+}
+
+.card{
+    width: 310px;
+    border: 1px solid darkgreen;
+    height: 460px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card:hover{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    box-shadow: 3px 5px 15px black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.botoes{
+    margin: auto;
+    width: fit-content;
+    margin-top: 0;
+}
+
+.cursos{
+    width: 120px;
+    height: 30px;
+}
+
+#deco h1{
+    color: darkgreen;
+}
+
+#cursos h2{text-align: center;}
+
+
+#electricidade{
+    color: darkorange;
+    text-align: center;
+}
+
+
+#elctrica{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+
+#mecanica{
+    text-align: center;
+    color: darkblue;
+}
+
+#mecanico{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+#contabilidade{
+    text-align: center;
+    color: darkgreen;
+}
+
+
+#contabilista{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+#corda{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.funk{
+    width: 270px;
+    height: 320px;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.funk:hover{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.funk img{
+    width: 270px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.ner h1{
+    text-align: center;
+}
+
+.txt{
+    padding: 5px;
+    max-height: 255px;
+    min-height: 255px;
+}
+
+#cota{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.spacer{
+    width: 100%;
+    height: 1px;
+    background-color: darkgreen;
+    margin:  0px;
+}
+
+.deco{
+    flex: 1;          /* substitui o width: 100% */
+    min-width: 0;      /* garante que consegue encolher */
+    height: 1px;
+    background-color: darkgreen;
+}
+
+#deco{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#deco h1{
+    max-width: 700px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 15px;
+}
+
+section{
+    background-color: white;
+}
+
+.butor{
+    margin: 25px auto;
+    width: fit-content;
+    display: none;
+}
+
+#mais{
+    width: 250px;
+    background-color: darkgreen;
+    color: white;
+    height: 25px;
+    display: none;
+    font-family: 'oswald';
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 3px;
+}
+
+footer p{
+    font-family: 'korewa';
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 400px) {
+    #navegacao{
+        display: none;
+    }
+
+    .delete{
+        display: none;
+    }
+    #mais{
+        display: block;
+    }
+    .butor{
+        display: block;
+    }
+}
+
+
+@media (max-width: 740px) {
+    #navegacao{
+        display: none;
+    }
+    .delete{
+        display: none;
+    }
+    
+
+    .keep{
+        display: block;
+    }
+
+    #mais{
+        display: block;
+    }
+
+    .butor{
+        display: block;
+    }
+}

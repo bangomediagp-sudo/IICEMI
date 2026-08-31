@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'oswald';
+    src: url(fontes/Oswald-VariableFont_wght.ttf)  format(truetype);
+}
+
+@font-face {
+    font-family: 'comorant';
+    src: url(fontes/CormorantGaramond-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'korewa';
+    src: url(fontes/GreatVibes-Regular.ttf) format(truetype);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    padding: 0;
+    font-family: 'oswald';
+}
+main{
+    background-color: whitesmoke;
+}
+
+#timbre img{
+    width: 250px;
+    height: 85px;
+}
+
+
+#navegacao{
+    display: flex;
+    gap: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.links{
+    padding: 3px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.links:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.links:hover a{
+    color: white;
+}
+
+#headersec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 570px;
+    height: 400px;
+}
+
+.slider{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.slids{
+    position: relative;
+    width: 400%;
+    max-height: 400px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.slids input{
+    display: none;
+}
+
+.move{
+    width: 25%;
+    transition:  1.5s;
+    position: relative;
+    object-fit: cover;
+}
+
+.move img{
+    max-width: 100%;
+    position: relative;
+    object-fit: fill;
+}
+
+.manave{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.mbtn{
+    border: 2px solid darkgreen;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mbtn:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .primo{
+    margin-left: 0;
+}
+#radio2:checked ~ .primo{
+    margin-left: -25%;
+}
+#radio3:checked ~ .primo{
+    margin-left: -50%;
+}
+#radio4:checked ~ .primo{
+    margin-left: -75%;
+}
+
+.mauto div{
+     border: 2px solid goldenrod;
+     padding: 5px;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+
+.mauto{
+    position: absolute;
+    width: 100%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mauto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~.mauto .autobtn1{
+ background-color: darkgreen;
+}
+#radio2:checked ~.mauto .autobtn2{
+ background-color: darkgreen;
+}
+#radio3:checked ~.mauto .autobtn3{
+ background-color: darkgreen;
+}
+#radio4:checked ~.mauto .autobtn4{
+ background-color: darkgreen;
+}
+
+/*agora vamos mxer om a pora do card da section do main*/
+.Sobre{
+    display: flex;
+    background-color: white;
+}
+
+.separa{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container{
+    width: 100%;
+    max-width: 450px;
+    max-height: 250px;
+    object-fit: cover;
+}
+#container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+
+/*bora mexer com os mini cards?*/
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 260px;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    height: 300px;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.txt h1{
+    text-align: center;
+    color: darkgreen;
+}
+.txt p{
+    text-align: center;
+}
+
+.container{
+    width: fit-content;
+}
+
+.container img{
+    width: 70px;
+    height: 70px;
+}
+
+
+#headersec{
+    background-color: white;
+}
+
+.what{
+    margin: 40px 10px;
+}
+
+#line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.line{
+    flex: 1;
+    min-width: 0;
+    height: 1px;
+    background-color: darkorange;
+}
+
+/*bora trabalhar com esses testimhos */
+#supremo{
+    font-size: 35pt;
+    margin-top: 30px;
+}
+
+#curt{
+    font-size: 22pt;
+    margin-top: 15px;
+}
+/* agora o botao do header*/
+#edy{
+    width: 200px;
+    height: 35px;
+    background-color: goldenrod;
+    border: none;
+    font-family: 'oswald';
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+/*agora vamosde testos da arte mais de baixa do the bagus.*/
+#amarelo{
+    font-size: 18pt;
+}
+.separa p{
+    font-size: 15pt;
+}
+
+footer{
+    margin: 20px 0 0 ;
+    background-color: black;
+}
+footer #cachoro {
+    font-family: 'korewa';
+    color: white    ;
+    text-align: center;
+}
+
+
+@media (max-width: 1339px) {
+    #navegacao{
+        display: none;
+    }
+
+    #headersec{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .slider{
+        min-width: 400px;
+        min-height: 200px;
+    }
+
+    .slides{
+        min-width: 200%;
+        min-height: 200px;
+    }
+
+    .move img{
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 920px) {
+    .separa{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+}
