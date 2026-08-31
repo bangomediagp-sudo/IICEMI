@@ -222,6 +222,10 @@ section{
 }
 
 @media (max-width: 815px) {
+
+    #timbre{
+        width: 62.5px;
+        height: 42.3px;
     #comun{
         display: none;
     }
