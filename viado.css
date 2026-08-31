@@ -380,7 +380,8 @@ footer #cachoro {
 
 @media (max-width: 920px) {
     header{
-        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
     }
     .separa{
         display: flex;
