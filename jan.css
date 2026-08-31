@@ -16,23 +16,21 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 header{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: white;
-    height: 15vh;
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     overflow-x: hidden;
     background-color: whitesmoke;
     padding: 0;
@@ -85,139 +83,220 @@ button{
     color: white;
 }
 
-
-main{
+#corno_do_teu_namorado{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    width: 100%;
-}
-
-section{
-    height: 85vh;
-    width: 100%;
-    position: inherit;
-}
-
-
-#careca{
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-}
-
-#destaques{
-    max-height: 100%;
-
-}
-
-#destaques h1{
-    text-align: center;
-}
-
-#destaques img{
-    width: 420px;
-    max-height: 90%;
-    border-radius: 25px;
-}
-
-.espacador{
-    width: 100%;
-    margin: 50px;
-}
-
-.cardc{
-    display: flex;
-    position: absolute;
     flex-wrap: wrap;
+    gap: 100px;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    padding: 20px 0px;
+    border-radius: 15px;
 }
 
 .card{
-    background-color: white;
-    border-radius: 25px;
+    width: 310px;
     border: 1px solid darkgreen;
-    width: 260px;
-    padding: 5px;
-    margin-left: 20px;
-    position: relative;
-
+    height: 460px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .card:hover{
     margin-top: -15px;
-    box-shadow: 2px 2px 15px black;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
     margin-bottom: 15px;
+    box-shadow: 3px 5px 15px black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
 
-.cardc img{
-    width: 250px;
+.card img{
+    width: 300px;
     height: 200px;
-    border-radius: 25px;
-    margin-top: 0;
-    
-}
-
-.content{
-    height: calc(100% - 200px);
-}
-
-.content h1{
-    color: darkgreen;
-    line-height: 22pt;
-    text-align: center;
+    border-radius: 15px;
 }
 
 .botoes{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: fit-content;
-    margin-bottom: 2px;
+    margin-top: 0;
 }
 
-.botoes button{
-    width: 100px;
-    height: 25px;
-    cursor: pointer;
+.cursos{
+    width: 120px;
+    height: 30px;
 }
 
-#bola{
+#deco h1{
+    color: darkgreen;
+}
+
+#cursos h2{text-align: center;}
+
+
+#electricidade{
+    color: darkorange;
     text-align: center;
+}
+
+
+#elctrica{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+
+#mecanica{
+    text-align: center;
+    color: darkblue;
+}
+
+#mecanico{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+#contabilidade{
+    text-align: center;
+    color: darkgreen;
+}
+
+
+#contabilista{
+    background-color: transparent;
+    border: none;
+    color: transparent;
+}
+
+#corda{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     align-items: center;
     justify-content: center;
 }
 
-#central{
-    text-align: center;
+.funk{
+    width: 270px;
+    height: 320px;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.funk:hover{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.funk img{
+    width: 270px;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.ner h1{
+    text-align: center;
+}
+
+.txt{
+    padding: 5px;
+    max-height: 255px;
+    min-height: 255px;
+}
+
+#cota{
+    height: 40px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.spacer{
+    width: 100%;
+    height: 1px;
+    background-color: darkgreen;
+    margin:  0px;
+}
+
+.deco{
+    flex: 1;          /* substitui o width: 100% */
+    min-width: 0;      /* garante que consegue encolher */
+    height: 1px;
+    background-color: darkgreen;
+}
+
+#deco{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#deco h1{
+    max-width: 700px;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 15px;
+}
+
+section{
+    background-color: white;
+}
+
+.butor{
+    margin: 25px auto;
+    width: fit-content;
+    display: none;
+}
+
+#mais{
+    width: 250px;
+    background-color: darkgreen;
+    color: white;
+    height: 25px;
+    display: none;
+    font-family: 'oswald';
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 3px;
+}
+
+footer p{
+    font-family: 'korewa';
+    color: white;
+    text-align: center;
 }
 
 
-
-@media (max-width: 1335px) {
-    #destaques{
+@media (max-width: 400px) {
+    #navegacao{
         display: none;
     }
 
-    header{
-        padding: 5px;
+    .delete{
+        display: none;
     }
-
-    html{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #mais{
+        display: block;
     }
-
-    body{
-        max-width: 920px;
+    .butor{
+        display: block;
     }
 }
 
