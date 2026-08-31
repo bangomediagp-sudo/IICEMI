@@ -409,4 +409,9 @@ footer #cachoro {
     #navegacao{
         margin-top: 20px;
     }
+
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
