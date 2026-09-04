@@ -88,6 +88,11 @@ button{
     justify-content: space-between;
 }
 
+#eles{
+    padding: 7px;
+}
+
+
 .info{
     width: 570px;
     height: 400px;
