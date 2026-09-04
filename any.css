@@ -207,7 +207,12 @@ section{
     }
 
     header{
-        padding: 5px;
+        height: fit-content;
+    }
+
+    #timbre{
+        width: fit-content;
+        height: fit-content;
     }
 
     html{
