@@ -328,7 +328,9 @@ footer #cachoro {
 
 
 @media (max-width: 1339px) {
-
+    #cur{
+        display: none;
+    }
 
 
     #headersec{
@@ -397,6 +399,9 @@ footer #cachoro {
         display: none;
     }
 
+    #cur{
+        display: none;
+    }
 
     .text{
         display: flex;
