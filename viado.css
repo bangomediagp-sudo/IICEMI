@@ -328,9 +328,7 @@ footer #cachoro {
 
 
 @media (max-width: 1339px) {
-    #navegacao button{
-        display: none;
-    }
+
 
 
     #headersec{
@@ -382,8 +380,14 @@ footer #cachoro {
     header{
         display: flex;
         flex-direction: column;
-        height: 155px;
+        margin-bottom: 15px;
     }
+
+    #timbre{
+        width: fit-content;
+        height: fit-content;
+    }
+    
     .separa{
         display: flex;
         flex-direction: column-reverse;
@@ -393,10 +397,6 @@ footer #cachoro {
         display: none;
     }
 
-    #timbre{
-        width: 125px;
-        height: 42.5px;
-    }
 
     .text{
         display: flex;
