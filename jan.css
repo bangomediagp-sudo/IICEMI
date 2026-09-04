@@ -13,19 +13,26 @@
     src: url(fontes/GreatVibes-Regular.ttf) format(truetype);
 }
 
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 *{
     padding: 0;
     margin: 0;
 }
 
-header{
+body{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color: whitesmoke;
     padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: white;
+    font-family: 'oswald';
+    max-width: 1440px;
+    margin: auto;
 }
 
 body{
