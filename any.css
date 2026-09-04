@@ -199,6 +199,11 @@ section{
     justify-content: center;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'korewa'
+}
 
 
 @media (max-width: 1335px) {
