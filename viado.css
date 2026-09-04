@@ -332,7 +332,11 @@ footer #cachoro {
         display: none;
     }
 
-
+    .separa{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
     #headersec{
         display: flex;
         flex-direction: column-reverse;
